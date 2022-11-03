@@ -1,0 +1,60 @@
+/* https://stackoverflow.com/a/21955398 */
+
+
+.game-banner{
+
+  transition: all 0.2s ease;
+  cursor: pointer;
+  
+
+}
+
+.favorite-btn:hover {
+  cursor: pointer;
+}
+
+
+.game-banner img:hover{
+
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.1);
+}
+
+.card-game {
+  position: relative;
+}
+
+.fixed {
+  flex: 0 0 160px;
+  
+}
+
+
+/* @media (min-width: 768px){
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1  {
+    width: 100%;
+    *width: 100%;
+  }
+} */
+
+
+/* @media (min-width: 992px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+} */
